@@ -1,0 +1,109 @@
+<svg width="1102" height="745" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1102 745">
+<rect width="1102" height="745" x="0" y="0" fill="none"></rect>
+<path d="M551 96.85A260.75 260.75 0 0 1 734.0614 171.9145C605.9184 301.8944 551 279.375 551 96.85A260.75 260.75 0 0 1 734.0614 171.9145C605.9184 301.8944 551 279.375 551 96.85Z" fill="url(#zr0-g0)" fill-opacity="0.35" stroke="gradient" stroke-width="0" stroke-opacity="0.35" class="zr0-cls-0"></path>
+<path d="M734.0614 171.9145A260.75 260.75 0 0 1 756.0219 196.4896C612.5066 309.2669 606.4655 412.761 735.8849 541.4698A260.75 260.75 0 0 1 711.2143 563.323C599.0643 419.3169 605.9184 301.8944 734.0614 171.9145Z" fill="url(#zr0-g1)" fill-opacity="0.35" stroke="gradient" stroke-width="0" stroke-opacity="0.35" class="zr0-cls-1"></path>
+<path d="M756.0219 196.4896A260.75 260.75 0 0 1 788.5666 250.1166C622.27 325.355 476.2973 380.8089 301.9909 434.963A260.75 260.75 0 0 1 290.7203 373.2541C472.9161 362.2962 612.5066 309.2669 756.0219 196.4896Z" fill="url(#zr0-g2)" fill-opacity="0.35" stroke="gradient" stroke-width="0" stroke-opacity="0.35" class="zr0-cls-2"></path>
+<path d="M711.2143 563.323A260.75 260.75 0 0 1 678.4722 585.0673C589.2417 425.8402 622.27 325.355 788.5666 250.1166A260.75 260.75 0 0 1 802.0233 287.0459C626.307 336.4338 599.0643 419.3169 711.2143 563.323Z" fill="url(#zr0-g3)" fill-opacity="0.35" stroke="gradient" stroke-width="0" stroke-opacity="0.35" class="zr0-cls-3"></path>
+<path d="M678.4722 585.0673A260.75 260.75 0 0 1 558.6479 618.2378C553.2944 435.7913 589.2417 425.8402 678.4722 585.0673A260.75 260.75 0 0 1 558.6479 618.2378C553.2944 435.7913 589.2417 425.8402 678.4722 585.0673Z" fill="url(#zr0-g4)" fill-opacity="0.35" stroke="gradient" stroke-width="0" stroke-opacity="0.35" class="zr0-cls-4"></path>
+<path d="M558.6479 618.2378A260.75 260.75 0 0 1 457.5668 601.0354C522.97 430.6306 472.9161 362.2962 290.7203 373.2541A260.75 260.75 0 0 1 304.8082 271.6921C477.1425 331.8276 553.2944 435.7913 558.6479 618.2378Z" fill="url(#zr0-g5)" fill-opacity="0.35" stroke="gradient" stroke-width="0" stroke-opacity="0.35" class="zr0-cls-5"></path>
+<path d="M304.8082 271.6921A260.75 260.75 0 0 1 335.3008 211.0927C486.2902 313.6478 626.307 336.4338 802.0233 287.0459A260.75 260.75 0 0 1 811.7277 354.1869C629.2183 356.5761 477.1425 331.8276 304.8082 271.6921Z" fill="url(#zr0-g6)" fill-opacity="0.35" stroke="gradient" stroke-width="0" stroke-opacity="0.35" class="zr0-cls-6"></path>
+<path d="M335.3008 211.0927A260.75 260.75 0 0 1 410.2978 138.0699C508.7894 291.741 522.97 430.6306 457.5668 601.0354A260.75 260.75 0 0 1 369.3597 544.6758C496.5079 413.7227 486.2902 313.6478 335.3008 211.0927Z" fill="url(#zr0-g7)" fill-opacity="0.35" stroke="gradient" stroke-width="0" stroke-opacity="0.35" class="zr0-cls-7"></path>
+<path d="M410.2978 138.0699A260.75 260.75 0 0 1 475.5113 108.0163C528.3534 282.7249 508.7894 291.741 410.2978 138.0699A260.75 260.75 0 0 1 475.5113 108.0163C528.3534 282.7249 508.7894 291.741 410.2978 138.0699Z" fill="url(#zr0-g8)" fill-opacity="0.35" stroke="gradient" stroke-width="0" stroke-opacity="0.35" class="zr0-cls-8"></path>
+<path d="M551 67.5376A15 15 0 0 1 566.7747 52.5576A305.45 305.45 0 0 1 781.9383 557.518A15 15 0 0 1 760.2073 558.5191L739.0658 538.2152A260.75 260.75 0 0 0 551 96.85Z" fill="rgb(214,39,40)" stroke="#ffffff" stroke-width="2" class="zr0-cls-9"></path>
+<path d="M756.6689 562.1397A15 15 0 0 1 756.1669 583.888A305.45 305.45 0 0 1 266.2592 468.1549A15 15 0 0 1 275.5425 448.481L303.379 439.297A260.75 260.75 0 0 0 735.8849 541.4698Z" fill="rgb(44,160,44)" stroke="#ffffff" stroke-width="2" class="zr0-cls-10"></path>
+<path d="M273.9984 443.6598A15 15 0 0 1 255.0126 433.0399A305.45 305.45 0 0 1 529.904 52.8794A15 15 0 0 1 545.9377 67.5818L546.4493 96.8897A260.75 260.75 0 0 0 301.9909 434.963Z" fill="rgb(255,127,14)" stroke="#ffffff" stroke-width="2" class="zr0-cls-11"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" transform="translate(811.4424 246.6254)" fill="#ffffff">Neural-related</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" transform="translate(485.9135 633.1165)" fill="#ffffff">Epidermal/Muscle-related</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:Microsoft YaHei;font-weight:bold;" transform="translate(321.5916 191.7164)" fill="#ffffff">Nematocyte-related</text>
+<defs >
+<linearGradient gradientUnits="userSpaceOnUse" x1="642.5306941477079" y1="134.3822692461129" x2="642.5306941477079" y2="134.3822692461129" id="zr0-g0">
+<stop offset="0%" stop-color="rgb(214,39,40)"></stop>
+<stop offset="100%" stop-color="rgb(214,39,40)"></stop>
+</linearGradient>
+<linearGradient gradientUnits="userSpaceOnUse" x1="745.041662759448" y1="184.20205874249103" x2="723.5496268453383" y2="552.3964044697138" id="zr0-g1">
+<stop offset="0%" stop-color="rgb(214,39,40)"></stop>
+<stop offset="100%" stop-color="rgb(44,160,44)"></stop>
+</linearGradient>
+<linearGradient gradientUnits="userSpaceOnUse" x1="772.2942561172181" y1="223.3030809787753" x2="296.35561264688135" y2="404.10856091754624" id="zr0-g2">
+<stop offset="0%" stop-color="#d62728"></stop>
+<stop offset="100%" stop-color="#ff7f0e"></stop>
+</linearGradient>
+<linearGradient gradientUnits="userSpaceOnUse" x1="694.8432796680618" y1="574.1951481073672" x2="795.2949284214111" y2="268.58126468605496" id="zr0-g3">
+<stop offset="0%" stop-color="#2ca02c"></stop>
+<stop offset="100%" stop-color="#d62728"></stop>
+</linearGradient>
+<linearGradient gradientUnits="userSpaceOnUse" x1="618.56008687201" y1="601.652576578427" x2="618.56008687201" y2="601.652576578427" id="zr0-g4">
+<stop offset="0%" stop-color="rgb(44,160,44)"></stop>
+<stop offset="100%" stop-color="rgb(44,160,44)"></stop>
+</linearGradient>
+<linearGradient gradientUnits="userSpaceOnUse" x1="508.1073514306071" y1="609.6366096127782" x2="297.7642744005746" y2="322.47309910433324" id="zr0-g5">
+<stop offset="0%" stop-color="rgb(44,160,44)"></stop>
+<stop offset="100%" stop-color="rgb(255,127,14)"></stop>
+</linearGradient>
+<linearGradient gradientUnits="userSpaceOnUse" x1="320.0544902611879" y1="241.39236780588072" x2="806.8754713733944" y2="320.61641718104227" id="zr0-g6">
+<stop offset="0%" stop-color="rgb(255,127,14)"></stop>
+<stop offset="100%" stop-color="rgb(214,39,40)"></stop>
+</linearGradient>
+<linearGradient gradientUnits="userSpaceOnUse" x1="372.79929895507735" y1="174.58128384786343" x2="413.4632401099012" y2="572.8556154756747" id="zr0-g7">
+<stop offset="0%" stop-color="rgb(255,127,14)"></stop>
+<stop offset="100%" stop-color="rgb(44,160,44)"></stop>
+</linearGradient>
+<linearGradient gradientUnits="userSpaceOnUse" x1="442.9045480933469" y1="123.04311075821143" x2="442.9045480933469" y2="123.04311075821143" id="zr0-g8">
+<stop offset="0%" stop-color="rgb(255,127,14)"></stop>
+<stop offset="100%" stop-color="rgb(255,127,14)"></stop>
+</linearGradient>
+</defs>
+<style ><![CDATA[
+.zr0-cls-0:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-1:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-2:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-3:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-4:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-5:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-6:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-7:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-8:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.zr0-cls-9:hover {
+cursor:pointer;
+fill:rgba(235,42,44,1);
+}
+.zr0-cls-10:hover {
+cursor:pointer;
+fill:rgba(48,176,48,1);
+}
+.zr0-cls-11:hover {
+cursor:pointer;
+fill:rgba(255,139,15,1);
+}
+
+]]>
+
+</style>
+</svg>

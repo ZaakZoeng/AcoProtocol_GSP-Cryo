@@ -1,0 +1,150 @@
+<!--
+	此示例下载自 https://echarts.apache.org/examples/zh/editor.html?c=chord-simple&code=jVXLjts2FN0b8D9coA0ko44tUdYzzQDFIN0lixZoFgMDoSXaIkqLAkWlGQTedtciKLpt1910n6_oRwRo0fxFLinJVjKemXBhmbyPc-6Dl7msGg05E0Jf16yBx3A1nQA4z1irqHiomKCaFc7cHj6pecHUnorl07bJBftE_IztqZb5tT4JppP1o-lkOvkY5lIKqQzW63NYGThfFBGJSXIfrNEkOfVIfjsDo7PdxluPIZmDJbNcwuXlJaCq4q8Gbt3udk72-JwgXKQkXSUkIKkfJX7oWyp3044W_ioJwtQnIUmCyI_CwehsBKjupckqRZMg9oIkMMqHe5NzK2UD7yEoiQIvDeI4_izKQUhCDwn4JImjVXIf5YAE8WoV-IGfhmE8pnzW4C6yXkD8xPdjTNgY-G62JEJY4nlRSpI0uYcsViFMU98P0sQjXmrJjtplz2iF3VtppsC1dvwlg0YrVu10OZtOBNPwkoq2u0Gm549XarGV6gnNSxdFF8bxTYlGSW--qNumdLtmvGrWV3o9Q_cz47BrU2TyAxWI0usrVrQ5c106h83M-KHwFWzm4M1gOegIS3MIZtNyUYDg1Y_N4NVu7mAuW5Uz49xW6UwAVO0wA4MCqli3BROaotshHOsGY7Laa3g4RIOgxohvwX1Kdbmgm8a1tjO4MIH0TqHj2aXoeAbQ-c36b19pszqgrP-OBDYvGXwCNsgPJt32j-0Ds7M_04msNZfVMCS0lELz-ti7mA2MFHskg7qvtVkvvnxdLzpuB3j3829g9h2lw9cbtbz453czjh7bc8tsoeW3_BUr3GB2eHG6OA1TnDVZN6HhlBVTCxxzeSlVP4rNqmnxTbUTKBkmkqmcaWH04ITeA2cOzip54KyPYkUL3hoAJ-7ECenEg0JBNc1G9d_T2s1t3cf1qOgeUfNxwrlm--_1tWEzUjR9gi_ByWP3MFzl-sTJrA0GxpQVduPcrFOkJ5XnvNBlBuSM6LshNm8Ofrg-Kdgid2WfjULFVmM3Gcua5lxfZ-DhOByh9HE4O5NCTLKDZ3jV3v39Bt7_8ee_b9_-9-tf___y5gg1AmL7uqQNR2ojnK3MDVmnYWKL79ZNK0E3THxk0pTyJ2x11Y5vQC0bbloWXfGqwXE5ztpA-kxCt7LSzxnflXh7nI0U5iU_Q8Jcx2wYJcdkYnIPjz4A&enc=deflate
+	⚠ 请注意，该图表不是 Apache ECharts 官方示例，而是由用户代码生成的。请注意鉴别其内容。
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/zh/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    const celltypes = [
+  'Neural-related',
+  'Epidermal/Muscle-related',
+  'Nematocyte-related'
+];
+
+const celltypeColors = {
+  'Neural-related': '#d62728',
+  'Epidermal/Muscle-related': '#2ca02c',
+  'Nematocyte-related': '#ff7f0e'
+};
+
+// CCC matrix
+const matrix = {
+  'Neural-related': {
+    'Neural-related': 5.929482329168151,
+    'Epidermal/Muscle-related': 6.1483591252836165,
+    'Nematocyte-related': 6.109849835370383
+  },
+  'Epidermal/Muscle-related': {
+    'Neural-related': 6.140165263093777,
+    'Epidermal/Muscle-related': 6.3525053712876485,
+    'Nematocyte-related': 6.323744313195573
+  },
+  'Nematocyte-related': {
+    'Neural-related': 6.1032181175916485,
+    'Epidermal/Muscle-related': 6.326557200692898,
+    'Nematocyte-related': 6.283599113980209
+  }
+};
+
+// mean center (relative strength)
+let values = [];
+celltypes.forEach(s =>
+  celltypes.forEach(t => values.push(matrix[s][t]))
+);
+const meanVal = values.reduce((a, b) => a + b, 0) / values.length;
+
+// build links
+const links = [];
+celltypes.forEach(source => {
+  celltypes.forEach(target => {
+    const delta = matrix[source][target] - meanVal;
+    if (Math.abs(delta) > 0) {
+      links.push({
+        source: source,
+        target: target,
+        value: Math.abs(delta)
+      });
+    }
+  });
+});
+
+option = {
+  tooltip: {
+    formatter: p =>
+      `${p.source} → ${p.target}<br/>ΔCCC = ${p.value.toFixed(3)}`
+  },
+  series: [
+    {
+      type: 'chord',
+      padAngle: 1,
+      center: ['50%', '48%'],
+      radius: ['70%', '82%'],
+
+      data: celltypes.map(ct => ({
+        name: ct,
+        itemStyle: {
+          color: celltypeColors[ct],
+          borderColor: '#ffffff',
+          borderWidth: 2,
+          borderRadius: [0, 15]
+        }
+      })),
+
+      lineStyle: {
+        opacity: 0.35,
+        color: 'gradient'   // ⭐ 非常推荐
+      },
+
+      emphasis: {
+        focus: 'self'
+      },
+
+      label: {
+        show: true,
+        position: 'inside',
+        color: '#ffffff',
+        fontWeight: 'bold'
+      },
+
+      links: links
+    }
+  ]
+};
+
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
